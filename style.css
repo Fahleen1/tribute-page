@@ -56,19 +56,20 @@
 }
 .container {
     padding-top: 40px;
-    width: 30%;
-    display: flex;
     margin-left: 3%;
+    display: flex;
+    margin: 10px 10px;
 }
 .col{
-padding: 5px;
-float: left;
-transition:transform 0.5s;
+    flex: 1;
 }
-.col img{
-height: 400px;
-transition:transform 0.5s;
-}
+.col img
+{
+    height: 400px;
+    transition:transform 0.5s;
+    
+    width: 100%;
+    }
 .col img:hover{
     transform: scale(1.1);
 }
